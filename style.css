@@ -46,20 +46,20 @@
 }
 
 .bird {
-  background: url(/FlappyBird/flappy-bird.png);
+  background: url(/flappy-bird.png);
   width: 60px;
   height: 40px;
   position: absolute;
 }
 
 .bar {
-  background: url(/FlappyBird/flappybird-pipe.png);
+  background: url(/flappybird-pipe.png);
   width: 60px;
   height: 300px;
   position: absolute;
 }
 .topBar {
-  background: url(/FlappyBird/flappybird-pipe-top.png);
+  background: url(/flappybird-pipe-top.png);
   width: 60px;
   height: 300px;
   position: absolute;
