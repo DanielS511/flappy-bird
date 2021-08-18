@@ -1,3 +1,14 @@
+const baseURL = "https://www.purgomalum.com/service/plain?text=";
+const nickNameDic = [
+  "Daniel Warrior",
+  "Jackass",
+  "Tommy Politics",
+  "Franky Awei",
+  "Peter Pitty",
+  "David Loser",
+  "Jesse J",
+];
+
 document.addEventListener("DOMContentLoaded", () => {
   const bird = document.querySelector(".bird");
   const gameContainer = document.querySelector(".game-container");
@@ -16,7 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
     bird.style.left = birdLeft + "px";
   }
   function controlKey(e) {
-    if (e.keyCode === 38) {
+    if (e.keyCode === 32) {
       jump();
     }
   }
